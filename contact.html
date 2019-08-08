@@ -38,7 +38,7 @@
                             <!-- Logo Area  -->
                             <a class="navbar-brand" href="index.html"><img src="img/core-img/logo.png" alt="Logo"></a>
 
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#studioMenu" aria-controls="studioMenu" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i> Menu</button>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#studioMenu" aria-controls="studioMenu" aria-expanded="false" aria-label="Toggle navigation"><em class="fa fa-bars"></em></button>
 
                             <div class="collapse navbar-collapse" id="studioMenu">
                                 <!-- Menu Area Start  -->
@@ -172,10 +172,29 @@
     <script src="js/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
-    <!-- Google Maps -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
+
     <script src="js/map-active.js"></script>
 
+<script>
+Webflow.push(function() {
+
+	var clicked = "false";
+  
+  $('.w-nav-button').click(function(e) {
+    e.preventDefault();
+    var overflowState = 'auto'
+
+    if (clicked == "false") {
+    overflowState = 'hidden';
+    clicked = "true";
+    } else {
+    overflowState = 'auto';
+    clicked = "false";
+    }
+    $('html, body').css('overflow', overflowState);
+  });
+});
+</script>
 
 </body>
 
