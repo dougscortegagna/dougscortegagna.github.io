@@ -21,15 +21,17 @@
     <!-- Responsive CSS -->
     <link href="css/responsive.css" rel="stylesheet">
 	
-	<script>
-      function lockScroll() {
-            if ($('body').hasClass('lock-scroll')) {
-                $('body').removeClass('lock-scroll');
-            }
-            else {
-                $('body').addClass('lock-scroll');
-            }
-      }
+	<!-- 2. Include jQuery -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+<!-- 3. Include plugin -->
+<script src="dist/jquery.dcd.doubletaptogo.js" type="text/javascript"></script>
+
+<!-- 4. Bind plugin to containers -->
+<script type="text/javascript">
+    $(function () {
+        $('.navigation').doubleTapToGo();
+    });
 </script>
 
 </head>
