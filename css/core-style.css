@@ -65,64 +65,13 @@ a:focus {
     outline: 0 solid;
 }
 
-a,
-a:hover,
-a:focus {
-    -webkit-transition: all 500ms ease 0s;
-    transition: all 500ms ease 0s;
-    text-decoration: none;
-    outline: none;
-    font-size: 14px;
-    color: #E6F1F5;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-}
 
-#preloader {
-    position: fixed;
-    z-index: 9999;
-    width: 100%;
-    height: 100%;
-    background-color: #f2f4f8;
-    top: 0;
-    left: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
 
-.questions-area ul li {
-    display: none;
-    font-size: 14px;
-    font-weight: 500;
-    color: #1d1d1d;
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
-}
 
-.questions-area ul li.question-show {
-    display: block;
-}
 
-.questions-area {
-    padding: 0 15px;
-    position: absolute;
-    bottom: 100px;
-    z-index: 15;
-    width: 100%;
-    height: auto;
-    left: 0;
-}
 
-.questions-area p {
-    margin-bottom: 0;
-}
+
+
 
 .showbox {
     position: relative;
@@ -447,11 +396,7 @@ img {
     padding-right: 5px;
 }
 
-.studio-btn:hover,
-.studio-btn:focus {
-    color: #E6F1F5;
-    font-size: 16px;
-}
+
 
 /* :: 4.0 Header Area CSS */
 
@@ -493,15 +438,7 @@ img {
     padding: 0 25px;
 }
 
-.header-area .main-menu .nav-link:hover,
-.header-area .main-menu .nav-link:focus {
-    color: #E6F1F5;
-}
 
-.header-area .main-menu .nav-link2:hover,
-.header-area .main-menu .nav-link2:focus {
-    color: #E6F1F5;
-}
 
 .dropdown-menu.show {
     border: none;
@@ -515,10 +452,7 @@ img {
     font-size: 13px;
 }
 
-.dropdown-item:hover {
-    color: #000;
-    font-size: 13px;
-}
+
 
 .header-search-form form input {
     width: 600px;
@@ -802,10 +736,7 @@ img {
     transition-duration: 500ms;
 }
 
-.single-instagram-feeds:hover a {
-    opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-}
+
 
 /* :: 9.0 Footer Area CSS */
 
@@ -860,10 +791,7 @@ img {
     transition-duration: 500ms;
 }
 
-.portfolio-menu button.active,
-.portfolio-menu button:hover {
-    color: #1d1d1d;
-}
+
 
 .portfolio-menu button:focus {
     box-shadow: none;
@@ -881,37 +809,9 @@ img {
     width: 100%;
 }
 
-.hover_overlay {
-    position: absolute;
-    width: calc(100% - 30px);
-    height: 100%;
-    background-color:#E6F1F5);
-    top: 0;
-    left: 15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
-}
 
-.hover_overlay a {
-    font-size: 30px;
-    color: #E6F1F5;
-}
 
-.column_single_gallery_item:hover .hover_overlay {
-    opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-}
+
 
 /* :: 11.0 Blog & Contact Area CSS */
 
@@ -934,24 +834,9 @@ img {
     margin-bottom: 50px;
 }
 
-.post-date,
-.post-date:hover,
-.post-date:focus {
-    display: block;
-    font-size: 14px;
-    margin-bottom: 5px;
-    font-weight: 500;
-}
 
-.post-author,
-.post-author:hover,
-.post-author:focus {
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #838383;
-    display: block;
-    margin-bottom: 50px;
-}
+
+
 
 .pagination-area .page-link {
     color: #1d1d1d;
