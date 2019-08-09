@@ -180,10 +180,10 @@
     }
     .navbar-brand {
         margin-right: 0;
-        width: 192px;
-		
-		height: 33px;
-		
+        max-width: 210px;
+		min-width: 210px;
+		max-height: 36px;
+		min-height: 36px;
 		
     }
     .header-search-form form input {
