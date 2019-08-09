@@ -434,13 +434,13 @@ img {
 .studio-btn {
     display: inline-block;
     color: #E6F1F5;
-    background-color: #1d1d1d;
-    height: 52px;
-    padding: 0 15px;
+    background-color: #E6F1F5;
+    height: 0px;
+    padding: 0 0px;
     border-radius: 0;
-    line-height: 52px;
-    font-size: 16px;
-    min-width: 140px;
+    line-height: 0px;
+    font-size: 0px;
+    min-width: 0px;
 }
 
 .studio-btn > img {
@@ -840,12 +840,12 @@ img {
 /* :: 10.0 Portfolio Area CSS */
 
 .gallery_area {
-    height: calc(100% - 380px);
+    height: calc(100% - 250px);
     width: calc(100% - 245px);
     overflow-y: scroll;
     position: fixed;
     z-index: 1;
-    top: 200px;
+    top: 150px;
     left: 185px;
     right: 60px;
     padding-right: 45px;
