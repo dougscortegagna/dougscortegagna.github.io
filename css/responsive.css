@@ -160,6 +160,11 @@
         background-color: #1d1d1d;
         z-index: 1002;
     }
+	
+	body {
+-webkit-overflow-scrolling: touch;
+} 
+	
     .header-area .main-menu .nav-link {
         padding: 5px 15px;
     }
