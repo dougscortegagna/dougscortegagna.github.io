@@ -32,7 +32,9 @@
     if ($.fn.owlCarousel) {
         $('.instagram-feeds-area').owlCarousel({
            
+			navContainer:!1,
 			items: 7,
+			navContainer: '#owl-nav',
             margin: 0,
             loop: true,
             nav: false,
