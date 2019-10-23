@@ -31,26 +31,25 @@
   gtag('config', 'UA-150785059-1');
 </script>
 
-<script>
-/**
-* Função que acompanha um clique em um link externo no Google Analytics.
-* Essa função processa uma string de URL válida como um argumento e usa essa string de URL
-* como o rótulo do evento. Ao definir o método de transporte como 'beacon', o hit é enviado
-* usando 'navigator.sendBeacon' em um navegador compatível.
-*/
-var captureOutboundLink = function(url) {
-   ga('send', 'event', 'outbound', 'click', url, {
-     'transport': 'beacon',
-     'hitCallback': function(){document.location = url;}
-   });
-}
-</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W88DGCW');</script>
+<!-- End Google Tag Manager -->
 
 
 
 </head>
 
 <body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W88DGCW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     
     <!-- Gradient Background Overlay -->
     <div class="gradient-background-overlay"></div>
